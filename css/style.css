@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: rgb(141, 0, 255);
+    background: linear-gradient(262deg, rgba(141, 0, 255, 1) 12%, rgba(9, 9, 121, 1) 55%, rgba(255, 0, 254, 1) 100%);
+}
+
+/* inicio de sesion */
+
+h2 {
+    color: #fff;
+    padding: 25px;
+}
+
+form {
+    backdrop-filter: blur(50px);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 50px;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 28px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #fd3c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #992929;
+}
+
+/* gestor de inventario */
+
+
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+form .añadirProducto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.nombreProducto, .cantidadProducto {
+    flex: 1;
+    margin-right: 10px;
+    padding: 8px;
+}
+
+form button {
+    padding: 8px 16px;
+    background-color: #fd3c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #992929;
+}

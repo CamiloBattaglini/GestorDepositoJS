@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Gestor de Inventario</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Gestor de Inventario</h1>
+
+        <!-- Formulario para agregar nuevos productos -->
+        <form class="añadirProducto" id="addProductForm">
+            <input class="nombreProducto" type="text" id="productName" placeholder="Nombre del Producto" required>
+            <input type="cantidadProducto" id="productQuantity" placeholder="Cantidad" required>
+            <button type="submit">Agregar Producto</button>
+        </form>
+
+
+        <table id="inventoryTable">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Cantidad</th>
+
+                </tr>
+            </thead>
+            <tbody id="inventoryBody">
+                
+            </tbody>
+        </table>
+    </div>
+
+    <script src="../js/script.js" defer></script>
+</body>
+
+</html>
