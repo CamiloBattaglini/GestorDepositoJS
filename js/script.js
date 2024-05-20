@@ -16,7 +16,7 @@ function handleSubmit(event) {
 
     if (usuarioValido) {
         alert('Inicio de sesión exitoso. ¡Bienvenido!');
-        window.location.href = '../pages/gestor_inventario.html';
+        window.location.href = "../pages/gestor_inventario.html";
     } else {
         alert('Nombre de usuario o contraseña incorrectos. Por favor, inténtalo de nuevo.');
     }
@@ -72,7 +72,7 @@ function updateInventoryTable() {
 document.getElementById('addProductForm').addEventListener('submit', handleAddProduct);
 
 
-
+// eliminar elementos
 
 
 
